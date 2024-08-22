@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #195851;
+    color: white;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.logo{
+    height: 35px;
+    padding: 5px;
+    margin: 5px 10px;
+    float: left;
+}
+
+.address{
+    color: white;
+    height: 40px;
+    font-size: 12px;
+    width: 100px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.delever{ 
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 30px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1px;
+    font-size: 0.7rem;
+    margin-left: 5px;
+
+}
+
+.india{
+    font-weight: bold;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.search{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+   
+}
+
+select{
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #cccccc;
+    cursor: pointer;
+}
+
+input{
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 20px;
+
+}
+
+.search-icon{
+    font-size: 1.3rem;
+    color: rgb(16, 16, 16);
+    background-color: orange;
+    height: 40px;
+    width: 55px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hello-sign-in, .return-order{
+    margin-left: 25px;
+    float: left;
+    padding: 10px;
+}
+
+.sign-in, .return{ 
+    color: #cccccc;
+    font-size: 0.75rem;
+
+}
+.account, .order{
+    font-weight: bold;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.cart-icon{
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    padding: 5px 20px;
+}
+
+.cart{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.menu{
+    background-color: #204b46;
+    color: white;
+    height: 40px;
+    width: 100%;
+}
+
+#banner img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+/* hover section start from here*/
+
+.border:hover{
+    border: 1.5px solid white;
+}
